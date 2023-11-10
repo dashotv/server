@@ -1,0 +1,112 @@
+repo_name: dashotv/server
+report_id: 8b243bd4b3b04472b5e1aca0140eb2f8
+repo_type: Public
+timestamp: '2023-11-10T00:16:47+00:00'
+requested_by: shawncatz
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source: migrations/1529216805_releases.up.sql
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: GORM
+  description: The fantastic ORM library for Golang
+  website_url: https://gorm.io/
+  version: 1.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5194/default_c656a82cbf499a944563022a13ebbd62c9f3aa4b.png
+  detection_source_url: Gopkg.toml
+  detection_source: Gopkg.toml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source: vendor/github.com/jinzhu/gorm/docker-compose.yml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: vendor/github.com/gin-gonic/gin/codecov.yml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: vendor/github.com/labstack/echo/Gopkg.toml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: vendor/gopkg.in/yaml.v2/.travis.yml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source: vendor/github.com/jinzhu/inflection/wercker.yml
+  last_updated_by: Shawn Catanzarite
+  last_updated_on: 2018-06-17 18:13:45.000000000 Z
